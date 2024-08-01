@@ -1,0 +1,54 @@
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #f0f2f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+form {
+background: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 400px;
+max-width: 100%;
+}
+
+.CardElement {
+border: 1px solid #d1d1d1;
+padding: 12px;
+border-radius: 4px;
+margin-bottom: 20px;
+font-size: 16px;
+}
+
+button {
+background-color: #6772e5;
+color: white;
+border: none;
+padding: 12px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #5469d4;
+}
+
+button:disabled {
+background-color: #bbb;
+cursor: not-allowed;
+}
+
+h2 {
+margin-bottom: 20px;
+font-size: 24px;
+color: #333;
+text-align: center;
+}
