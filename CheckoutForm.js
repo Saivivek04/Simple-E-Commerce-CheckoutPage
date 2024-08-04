@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '.style.css';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 
 const CheckoutForm = () => {
